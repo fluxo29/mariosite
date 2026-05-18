@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mario Bross</title>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <img src="img/logo-header.png" alt="logo-cabecalho">
+        <a href="">Home</a>
+        <a onclick="mostrarForm()">Fale conosco</a>
+        <a href="servicos.html">Nossos Serviços</a>
+    </div>
+    <div class="caixa-principal">
+        <div class="caixa-logo-texto">
+            <img src="img/logo.png" alt="Logo do jogo Mario Bross" class="logo-mario">
+
+            <p>🔧 Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo! 🔧</p>
+
+            <p>Você já se deparou com uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+
+            <button onclick="mostrarForm()">Entre em Contato</button>
+        </div>
+
+        <div class="caixa-img-mario">
+            <img src="img/mario.png" alt="Mario Bross" class="img-mario">
+        </div>
+    </div>
+
+    <div class="caixa-video">
+        <video src="img/video.mp4" autoplay muted loop></video>
+
+    </div>
+
+    <div class="caixa-mascara"></div>
+
+    <div class="caixa-link-whatsapp">
+        <a href="https://wa.me/5511999999999" target="_blank" class="link-whatsapp">
+            <img src="img/whatsapp.png" alt="whatsapp">
+        </a>
+    </div>
+
+
+    <form class="formulario" 
+     action="https://formcarry.com/s/LLQNZFxKbsY"
+     method="POST" 
+     enctype="multipart/form-data"
+     >
+        <input type="text" name="name" placeholder="Seu nome" />
+        <input type="email" name="email" placeholder="Seu email" />
+        <textarea name="message" placeholder="Sua mensagem"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+    </form>
+
+    <div class="mascara-formulario" onclick="esconderForm()"> </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
