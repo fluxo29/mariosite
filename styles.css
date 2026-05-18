@@ -157,7 +157,13 @@ form textarea {
     border: 1px solid gray;
     outline-color: #18D80F;
     height: 100px;
+   
 
+}
+
+textarea{
+    resize: none;
+    height: 40px;
 }
 
 .mascara-formulario {
